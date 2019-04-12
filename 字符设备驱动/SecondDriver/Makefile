@@ -12,6 +12,6 @@ clear:
 	rm -rf *.o *~ core .depend .*.cmd *.ko *.mod.c .tmp_versions modules.order  Module.symvers
 .PHONY: modules modules_install clean
 else
-	obj-m:= frist_drv.o
+	obj-m:= second_drv.o
 #	obj-m:= aw87339_audio.o
 endif
