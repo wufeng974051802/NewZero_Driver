@@ -1,8 +1,8 @@
-cmd_/home/water/NewZero_Driver/字符设备驱动/FirstDriver/frist_drv.o := /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin/arm-eabi-gcc -Wp,-MD,/home/water/NewZero_Driver/字符设备驱动/FirstDriver/.frist_drv.o.d  -nostdinc -isystem /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/include -I/home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include -Iarch/arm/include/generated/uapi -Iarch/arm/include/generated  -I/home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include -Iinclude -I/home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/uapi -Iarch/arm/include/generated/uapi -I/home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/uapi -Iinclude/generated/uapi -include /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/kconfig.h   -I/home/water/NewZero_Driver/字符设备驱动/FirstDriver -D__KERNEL__ -mlittle-endian -Wall -Werror -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -std=gnu89 -fno-PIE -fno-dwarf2-cfi-asm -fno-ipa-sra -mabi=aapcs-linux -mno-thumb-interwork -mfpu=vfp -funwind-tables -marm -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -fno-delete-null-pointer-checks -Wno-maybe-uninitialized -Os --param=allow-store-data-races=0 -DCC_HAVE_ASM_GOTO -Wframe-larger-than=2048 -fno-stack-protector -Wno-unused-but-set-variable -fomit-frame-pointer -fno-var-tracking-assignments -g -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes  -DMODULE  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(frist_drv)"  -D"KBUILD_MODNAME=KBUILD_STR(frist_drv)" -c -o /home/water/NewZero_Driver/字符设备驱动/FirstDriver/frist_drv.o /home/water/NewZero_Driver/字符设备驱动/FirstDriver/frist_drv.c
+cmd_/home/water/NewZero_Driver/misc设备驱动/FirstDriver/frist_drv.o := /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin/arm-eabi-gcc -Wp,-MD,/home/water/NewZero_Driver/misc设备驱动/FirstDriver/.frist_drv.o.d  -nostdinc -isystem /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/include -I/home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include -Iarch/arm/include/generated/uapi -Iarch/arm/include/generated  -I/home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include -Iinclude -I/home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/uapi -Iarch/arm/include/generated/uapi -I/home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/uapi -Iinclude/generated/uapi -include /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/kconfig.h   -I/home/water/NewZero_Driver/misc设备驱动/FirstDriver -D__KERNEL__ -mlittle-endian -Wall -Werror -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -std=gnu89 -fno-PIE -fno-dwarf2-cfi-asm -fno-ipa-sra -mabi=aapcs-linux -mno-thumb-interwork -mfpu=vfp -funwind-tables -marm -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -fno-delete-null-pointer-checks -Wno-maybe-uninitialized -Os --param=allow-store-data-races=0 -DCC_HAVE_ASM_GOTO -Wframe-larger-than=2048 -fno-stack-protector -Wno-unused-but-set-variable -fomit-frame-pointer -fno-var-tracking-assignments -g -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes  -DMODULE  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(frist_drv)"  -D"KBUILD_MODNAME=KBUILD_STR(frist_drv)" -c -o /home/water/NewZero_Driver/misc设备驱动/FirstDriver/frist_drv.o /home/water/NewZero_Driver/misc设备驱动/FirstDriver/frist_drv.c
 
-source_/home/water/NewZero_Driver/字符设备驱动/FirstDriver/frist_drv.o := /home/water/NewZero_Driver/字符设备驱动/FirstDriver/frist_drv.c
+source_/home/water/NewZero_Driver/misc设备驱动/FirstDriver/frist_drv.o := /home/water/NewZero_Driver/misc设备驱动/FirstDriver/frist_drv.c
 
-deps_/home/water/NewZero_Driver/字符设备驱动/FirstDriver/frist_drv.o := \
+deps_/home/water/NewZero_Driver/misc设备驱动/FirstDriver/frist_drv.o := \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/module.h \
     $(wildcard include/config/modules.h) \
     $(wildcard include/config/sysfs.h) \
@@ -461,75 +461,8 @@ deps_/home/water/NewZero_Driver/字符设备驱动/FirstDriver/frist_drv.o := \
     $(wildcard include/config/have/mod/arch/specific.h) \
     $(wildcard include/config/modules/use/elf/rel.h) \
     $(wildcard include/config/modules/use/elf/rela.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/reboot.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/uapi/linux/reboot.h \
-  arch/arm/include/generated/asm/emergency-restart.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/asm-generic/emergency-restart.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/interrupt.h \
-    $(wildcard include/config/irq/forced/threading.h) \
-    $(wildcard include/config/generic/irq/probe.h) \
-    $(wildcard include/config/proc/fs.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/irqreturn.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/irqnr.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/uapi/linux/irqnr.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/hardirq.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/ftrace_irq.h \
-    $(wildcard include/config/ftrace/nmi/enter.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/vtime.h \
-    $(wildcard include/config/virt/cpu/accounting/native.h) \
-    $(wildcard include/config/virt/cpu/accounting/gen.h) \
-    $(wildcard include/config/virt/cpu/accounting.h) \
-    $(wildcard include/config/irq/time/accounting.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/context_tracking_state.h \
-    $(wildcard include/config/context/tracking.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/static_key.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/hardirq.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/irq.h \
-    $(wildcard include/config/sparse/irq.h) \
-    $(wildcard include/config/multi/irq/handler.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/irq_cpustat.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/hrtimer.h \
-    $(wildcard include/config/high/res/timers.h) \
-    $(wildcard include/config/time/low/res.h) \
-    $(wildcard include/config/timerfd.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/timerqueue.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/delay.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/delay.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/pci.h \
-    $(wildcard include/config/pci/iov.h) \
-    $(wildcard include/config/pcieaspm.h) \
-    $(wildcard include/config/pci/msi.h) \
-    $(wildcard include/config/pci/ats.h) \
-    $(wildcard include/config/pci/domains/generic.h) \
-    $(wildcard include/config/pci/bus/addr/t/64bit.h) \
-    $(wildcard include/config/pci.h) \
-    $(wildcard include/config/pcieportbus.h) \
-    $(wildcard include/config/pcieaer.h) \
-    $(wildcard include/config/pcie/ecrc.h) \
-    $(wildcard include/config/ht/irq.h) \
-    $(wildcard include/config/pci/domains.h) \
-    $(wildcard include/config/pci/quirks.h) \
-    $(wildcard include/config/hibernate/callbacks.h) \
-    $(wildcard include/config/pci/mmconfig.h) \
-    $(wildcard include/config/hotplug/pci.h) \
-    $(wildcard include/config/eeh.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/mod_devicetable.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/uuid.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/uapi/linux/uuid.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/ioport.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/device.h \
-    $(wildcard include/config/debug/devres.h) \
-    $(wildcard include/config/generic/msi/irq/domain.h) \
-    $(wildcard include/config/pinctrl.h) \
-    $(wildcard include/config/generic/msi/irq.h) \
-    $(wildcard include/config/dma/cma.h) \
-    $(wildcard include/config/devtmpfs.h) \
-    $(wildcard include/config/sysfs/deprecated.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/klist.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/pinctrl/devinfo.h \
-    $(wildcard include/config/pm.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/pinctrl/consumer.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/seq_file.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/miscdevice.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/uapi/linux/major.h \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/fs.h \
     $(wildcard include/config/fs/posix/acl.h) \
     $(wildcard include/config/security.h) \
@@ -589,31 +522,48 @@ deps_/home/water/NewZero_Driver/字符设备驱动/FirstDriver/frist_drv.o := \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/projid.h \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/uapi/linux/quota.h \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/nfs_fs_i.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/cred.h \
-    $(wildcard include/config/debug/credentials.h) \
-    $(wildcard include/config/keys.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/key.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/assoc_array.h \
-    $(wildcard include/config/associative/array.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/selinux.h \
-    $(wildcard include/config/security/selinux.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/pinctrl/pinctrl-state.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/pm.h \
-    $(wildcard include/config/vt/console/sleep.h) \
-    $(wildcard include/config/pm/clk.h) \
-    $(wildcard include/config/pm/generic/domains.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/ratelimit.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/device.h \
-    $(wildcard include/config/dmabounce.h) \
-    $(wildcard include/config/iommu/api.h) \
-    $(wildcard include/config/arm/dma/use/iommu.h) \
-    $(wildcard include/config/arch/omap.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/pm_wakeup.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/gpio.h \
+    $(wildcard include/config/arch/nr/gpio.h) \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/asm-generic/gpio.h \
+    $(wildcard include/config/gpiolib.h) \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/of.h \
+    $(wildcard include/config/sparc.h) \
+    $(wildcard include/config/of/dynamic.h) \
+    $(wildcard include/config/attach/node.h) \
+    $(wildcard include/config/detach/node.h) \
+    $(wildcard include/config/add/property.h) \
+    $(wildcard include/config/remove/property.h) \
+    $(wildcard include/config/update/property.h) \
+    $(wildcard include/config/no/change.h) \
+    $(wildcard include/config/change/add.h) \
+    $(wildcard include/config/change/remove.h) \
+    $(wildcard include/config/of/resolve.h) \
+    $(wildcard include/config/of/overlay.h) \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/mod_devicetable.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/uuid.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/uapi/linux/uuid.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/property.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/fwnode.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/gpio/driver.h \
+    $(wildcard include/config/gpiolib/irqchip.h) \
+    $(wildcard include/config/of/gpio.h) \
+    $(wildcard include/config/pinctrl.h) \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/irq.h \
+    $(wildcard include/config/irq/domain/hierarchy.h) \
+    $(wildcard include/config/generic/pending/irq.h) \
+    $(wildcard include/config/hardirqs/sw/resend.h) \
+    $(wildcard include/config/generic/irq/legacy/alloc/hwirq.h) \
+    $(wildcard include/config/generic/irq/legacy.h) \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/irqhandler.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/irqreturn.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/irqnr.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/uapi/linux/irqnr.h \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/io.h \
     $(wildcard include/config/have/arch/huge/vmap.h) \
     $(wildcard include/config/has/ioport/map.h) \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/io.h \
     $(wildcard include/config/sprd/last/regs.h) \
+    $(wildcard include/config/pci.h) \
     $(wildcard include/config/need/mach/io/h.h) \
     $(wildcard include/config/pcmcia/soc/common.h) \
     $(wildcard include/config/isa.h) \
@@ -628,122 +578,41 @@ deps_/home/water/NewZero_Driver/字符设备驱动/FirstDriver/frist_drv.o := \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/asm-generic/io.h \
     $(wildcard include/config/generic/iomap.h) \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/vmalloc.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/resource_ext.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/slab.h \
-    $(wildcard include/config/debug/slab.h) \
-    $(wildcard include/config/kmemcheck.h) \
-    $(wildcard include/config/failslab.h) \
-    $(wildcard include/config/have/hardened/usercopy/allocator.h) \
-    $(wildcard include/config/slab.h) \
-    $(wildcard include/config/slub.h) \
-    $(wildcard include/config/slob.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/kmemleak.h \
-    $(wildcard include/config/debug/kmemleak.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/kasan.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/uapi/linux/pci.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/uapi/linux/pci_regs.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/pci_ids.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/pci.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/asm-generic/pci-dma-compat.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/dma-mapping.h \
-    $(wildcard include/config/has/dma.h) \
-    $(wildcard include/config/arch/has/dma/set/coherent/mask.h) \
-    $(wildcard include/config/have/dma/attrs.h) \
-    $(wildcard include/config/need/dma/map/state.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/dma-attrs.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/dma-direction.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/scatterlist.h \
-    $(wildcard include/config/debug/sg.h) \
-    $(wildcard include/config/need/sg/dma/length.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/mm.h \
-    $(wildcard include/config/have/arch/mmap/rnd/bits.h) \
-    $(wildcard include/config/have/arch/mmap/rnd/compat/bits.h) \
-    $(wildcard include/config/mem/soft/dirty.h) \
-    $(wildcard include/config/ppc.h) \
-    $(wildcard include/config/parisc.h) \
-    $(wildcard include/config/metag.h) \
-    $(wildcard include/config/stack/growsup.h) \
-    $(wildcard include/config/transparent/hugepage.h) \
-    $(wildcard include/config/shmem.h) \
-    $(wildcard include/config/swap/zdata.h) \
-    $(wildcard include/config/e/show/mem.h) \
-    $(wildcard include/config/debug/vm/rb.h) \
-    $(wildcard include/config/debug/pagealloc.h) \
-    $(wildcard include/config/hibernation.h) \
-    $(wildcard include/config/hugetlbfs.h) \
-    $(wildcard include/config/process/reclaim.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/mm_types.h \
-    $(wildcard include/config/split/ptlock/cpus.h) \
-    $(wildcard include/config/arch/enable/split/pmd/ptlock.h) \
-    $(wildcard include/config/have/cmpxchg/double.h) \
-    $(wildcard include/config/have/aligned/struct/page.h) \
-    $(wildcard include/config/userfaultfd.h) \
-    $(wildcard include/config/pgtable/levels.h) \
-    $(wildcard include/config/aio.h) \
-    $(wildcard include/config/mmu/notifier.h) \
-    $(wildcard include/config/arch/want/batched/unmap/tlb/flush.h) \
-    $(wildcard include/config/x86/intel/mpx.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/auxvec.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/uapi/linux/auxvec.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/uprobes.h \
-    $(wildcard include/config/uprobes.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/mmu.h \
-    $(wildcard include/config/cpu/has/asid.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/range.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/resource.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/uapi/linux/resource.h \
-  arch/arm/include/generated/asm/resource.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/asm-generic/resource.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/uapi/asm-generic/resource.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/page_ext.h \
-    $(wildcard include/config/idle/page/tracking.h) \
-    $(wildcard include/config/page/owner.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/stacktrace.h \
-    $(wildcard include/config/stacktrace.h) \
-    $(wildcard include/config/user/stacktrace/support.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/pgtable.h \
-    $(wildcard include/config/highpte.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/proc-fns.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/glue-proc.h \
-    $(wildcard include/config/cpu/arm7tdmi.h) \
-    $(wildcard include/config/cpu/arm720t.h) \
-    $(wildcard include/config/cpu/arm740t.h) \
-    $(wildcard include/config/cpu/arm9tdmi.h) \
-    $(wildcard include/config/cpu/arm920t.h) \
-    $(wildcard include/config/cpu/arm922t.h) \
-    $(wildcard include/config/cpu/arm925t.h) \
-    $(wildcard include/config/cpu/arm926t.h) \
-    $(wildcard include/config/cpu/arm940t.h) \
-    $(wildcard include/config/cpu/arm946e.h) \
-    $(wildcard include/config/cpu/arm1020.h) \
-    $(wildcard include/config/cpu/arm1020e.h) \
-    $(wildcard include/config/cpu/arm1022.h) \
-    $(wildcard include/config/cpu/arm1026.h) \
-    $(wildcard include/config/cpu/mohawk.h) \
-    $(wildcard include/config/cpu/feroceon.h) \
-    $(wildcard include/config/cpu/v6k.h) \
-    $(wildcard include/config/cpu/pj4b.h) \
-    $(wildcard include/config/cpu/v7.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/asm-generic/pgtable-nopud.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/pgtable-hwdef.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/pgtable-2level-hwdef.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/tlbflush.h \
-    $(wildcard include/config/smp/on/up.h) \
-    $(wildcard include/config/cpu/tlb/v4wt.h) \
-    $(wildcard include/config/cpu/tlb/fa.h) \
-    $(wildcard include/config/cpu/tlb/v4wbi.h) \
-    $(wildcard include/config/cpu/tlb/feroceon.h) \
-    $(wildcard include/config/cpu/tlb/v4wb.h) \
-    $(wildcard include/config/cpu/tlb/v6.h) \
-    $(wildcard include/config/cpu/tlb/v7.h) \
-    $(wildcard include/config/arm/errata/720789.h) \
-    $(wildcard include/config/arm/errata/798181.h) \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/irq.h \
+    $(wildcard include/config/sparse/irq.h) \
+    $(wildcard include/config/multi/irq/handler.h) \
+  arch/arm/include/generated/asm/irq_regs.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/asm-generic/irq_regs.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/irqdesc.h \
+    $(wildcard include/config/irq/preflow/fasteoi.h) \
+    $(wildcard include/config/proc/fs.h) \
+    $(wildcard include/config/handle/domain/irq.h) \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/hw_irq.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/irqchip/chained_irq.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/irqdomain.h \
+    $(wildcard include/config/irq/domain.h) \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/pinctrl/pinctrl.h \
+    $(wildcard include/config/generic/pinconf.h) \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/seq_file.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/cred.h \
+    $(wildcard include/config/debug/credentials.h) \
+    $(wildcard include/config/keys.h) \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/key.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/assoc_array.h \
+    $(wildcard include/config/associative/array.h) \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/selinux.h \
+    $(wildcard include/config/security/selinux.h) \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/pinctrl/pinctrl-state.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/gpio/consumer.h \
+    $(wildcard include/config/gpio/sysfs.h) \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/uaccess.h \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/sched.h \
     $(wildcard include/config/cpu/quiet.h) \
     $(wildcard include/config/sched/debug.h) \
     $(wildcard include/config/lockup/detector.h) \
     $(wildcard include/config/detect/hung/task.h) \
     $(wildcard include/config/core/dump/default/elf/headers.h) \
+    $(wildcard include/config/virt/cpu/accounting/native.h) \
     $(wildcard include/config/sched/autogroup.h) \
     $(wildcard include/config/bsd/process/acct.h) \
     $(wildcard include/config/taskstats.h) \
@@ -761,32 +630,56 @@ deps_/home/water/NewZero_Driver/字符设备驱动/FirstDriver/frist_drv.o := \
     $(wildcard include/config/sched/walt.h) \
     $(wildcard include/config/fair/group/sched.h) \
     $(wildcard include/config/rt/group/sched.h) \
+    $(wildcard include/config/swap/zdata.h) \
     $(wildcard include/config/cgroup/sched.h) \
     $(wildcard include/config/blk/dev/io/trace.h) \
     $(wildcard include/config/compat/brk.h) \
     $(wildcard include/config/cgroups.h) \
     $(wildcard include/config/cc/stackprotector.h) \
+    $(wildcard include/config/virt/cpu/accounting/gen.h) \
     $(wildcard include/config/sysvipc.h) \
     $(wildcard include/config/auditsyscall.h) \
     $(wildcard include/config/rt/mutexes.h) \
     $(wildcard include/config/task/xacct.h) \
     $(wildcard include/config/cpusets.h) \
     $(wildcard include/config/futex.h) \
+    $(wildcard include/config/arch/want/batched/unmap/tlb/flush.h) \
     $(wildcard include/config/fault/injection.h) \
     $(wildcard include/config/latencytop.h) \
     $(wildcard include/config/function/graph/tracer.h) \
+    $(wildcard include/config/uprobes.h) \
     $(wildcard include/config/bcache.h) \
     $(wildcard include/config/arch/wants/dynamic/task/struct.h) \
     $(wildcard include/config/have/unstable/sched/clock.h) \
+    $(wildcard include/config/irq/time/accounting.h) \
+    $(wildcard include/config/stack/growsup.h) \
     $(wildcard include/config/have/copy/thread/tls.h) \
     $(wildcard include/config/boost/kill.h) \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/uapi/linux/sched.h \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/sched/prio.h \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/plist.h \
     $(wildcard include/config/debug/pi/list.h) \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/mm_types.h \
+    $(wildcard include/config/split/ptlock/cpus.h) \
+    $(wildcard include/config/arch/enable/split/pmd/ptlock.h) \
+    $(wildcard include/config/have/cmpxchg/double.h) \
+    $(wildcard include/config/have/aligned/struct/page.h) \
+    $(wildcard include/config/transparent/hugepage.h) \
+    $(wildcard include/config/kmemcheck.h) \
+    $(wildcard include/config/userfaultfd.h) \
+    $(wildcard include/config/pgtable/levels.h) \
+    $(wildcard include/config/aio.h) \
+    $(wildcard include/config/mmu/notifier.h) \
+    $(wildcard include/config/x86/intel/mpx.h) \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/auxvec.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/uapi/linux/auxvec.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/uprobes.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/mmu.h \
+    $(wildcard include/config/cpu/has/asid.h) \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/cputime.h \
   arch/arm/include/generated/asm/cputime.h \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/asm-generic/cputime.h \
+    $(wildcard include/config/virt/cpu/accounting.h) \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/asm-generic/cputime_jiffies.h \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/sem.h \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/uapi/linux/sem.h \
@@ -826,6 +719,16 @@ deps_/home/water/NewZero_Driver/字符设备驱动/FirstDriver/frist_drv.o := \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/uapi/asm/unistd.h \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/rtmutex.h \
     $(wildcard include/config/debug/rt/mutexes.h) \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/resource.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/uapi/linux/resource.h \
+  arch/arm/include/generated/asm/resource.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/asm-generic/resource.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/uapi/asm-generic/resource.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/hrtimer.h \
+    $(wildcard include/config/high/res/timers.h) \
+    $(wildcard include/config/time/low/res.h) \
+    $(wildcard include/config/timerfd.h) \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/timerqueue.h \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/task_io_accounting.h \
     $(wildcard include/config/task/io/accounting.h) \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/latencytop.h \
@@ -843,33 +746,6 @@ deps_/home/water/NewZero_Driver/字符设备驱动/FirstDriver/frist_drv.o := \
     $(wildcard include/config/cgroup/hugetlb.h) \
     $(wildcard include/config/cgroup/pids.h) \
     $(wildcard include/config/cgroup/debug.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/pgtable-2level.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/asm-generic/pgtable.h \
-    $(wildcard include/config/have/arch/soft/dirty.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/page-flags.h \
-    $(wildcard include/config/arch/uses/pg/uncached.h) \
-    $(wildcard include/config/memory/failure.h) \
-    $(wildcard include/config/zcache.h) \
-    $(wildcard include/config/swap.h) \
-    $(wildcard include/config/ksm.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/huge_mm.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/vmstat.h \
-    $(wildcard include/config/vm/event/counters.h) \
-    $(wildcard include/config/debug/tlbflush.h) \
-    $(wildcard include/config/debug/vm/vmacache.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/vm_event_item.h \
-    $(wildcard include/config/memory/balloon.h) \
-    $(wildcard include/config/balloon/compaction.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/dma-mapping.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/dma-debug.h \
-    $(wildcard include/config/dma/api/debug.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/xen/hypervisor.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/asm-generic/dma-mapping-common.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/kmemcheck.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/asm-generic/dma-coherent.h \
-    $(wildcard include/config/have/generic/dma/coherent.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/asm-generic/pci-bridge.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/mach/pci.h \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/uaccess.h \
     $(wildcard include/config/have/efficient/unaligned/access.h) \
     $(wildcard include/config/cpu/sw/domain/pan.h) \
@@ -877,109 +753,38 @@ deps_/home/water/NewZero_Driver/字符设备驱动/FirstDriver/frist_drv.o := \
     $(wildcard include/config/uaccess/with/memcpy.h) \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/domain.h \
     $(wildcard include/config/io/36.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/scsi/scsi.h \
-    $(wildcard include/config/arch/has/sg/chain.h) \
-    $(wildcard include/config/acpi.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/scsi/scsi_common.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/scsi/scsi_proto.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/scsi/scsi_host.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/blk-mq.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/blkdev.h \
-    $(wildcard include/config/blk/dev/bsg.h) \
-    $(wildcard include/config/blk/dev/throttling.h) \
-    $(wildcard include/config/bounce.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/uapi/linux/major.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/genhd.h \
-    $(wildcard include/config/fail/make/request.h) \
-    $(wildcard include/config/solaris/x86/partition.h) \
-    $(wildcard include/config/bsd/disklabel.h) \
-    $(wildcard include/config/unixware/disklabel.h) \
-    $(wildcard include/config/minix/subpartition.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/pagemap.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/highmem.h \
-    $(wildcard include/config/x86/32.h) \
-    $(wildcard include/config/debug/highmem.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/uaccess.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/cacheflush.h \
-    $(wildcard include/config/arm/errata/411920.h) \
-    $(wildcard include/config/cpu/cache/vipt.h) \
-    $(wildcard include/config/outer/cache.h) \
-    $(wildcard include/config/frame/pointer.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/glue-cache.h \
-    $(wildcard include/config/cpu/cache/v4.h) \
-    $(wildcard include/config/cpu/cache/v4wb.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/cachetype.h \
-    $(wildcard include/config/cpu/cache/vivt.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/outercache.h \
-    $(wildcard include/config/outer/cache/sync.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/kmap_types.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/hugetlb_inline.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/backing-dev-defs.h \
-    $(wildcard include/config/debug/fs.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/flex_proportions.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/mempool.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/bio.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/ioprio.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/iocontext.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/bsg.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/uapi/linux/bsg.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/elevator.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/hashtable.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/hash.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/scsi/scsi_tcq.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/scsi/scsi_cmnd.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/scsi/scsi_device.h \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/cdev.h \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/leds.h \
     $(wildcard include/config/leds/triggers.h) \
     $(wildcard include/config/leds/trigger/ide/disk.h) \
     $(wildcard include/config/leds/trigger/camera.h) \
     $(wildcard include/config/leds/trigger/cpu.h) \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/device.h \
+    $(wildcard include/config/debug/devres.h) \
+    $(wildcard include/config/generic/msi/irq/domain.h) \
+    $(wildcard include/config/generic/msi/irq.h) \
+    $(wildcard include/config/dma/cma.h) \
+    $(wildcard include/config/devtmpfs.h) \
+    $(wildcard include/config/sysfs/deprecated.h) \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/ioport.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/klist.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/pinctrl/devinfo.h \
+    $(wildcard include/config/pm.h) \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/pinctrl/consumer.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/pm.h \
+    $(wildcard include/config/vt/console/sleep.h) \
+    $(wildcard include/config/pm/clk.h) \
+    $(wildcard include/config/pm/generic/domains.h) \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/ratelimit.h \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/device.h \
+    $(wildcard include/config/dmabounce.h) \
+    $(wildcard include/config/iommu/api.h) \
+    $(wildcard include/config/arm/dma/use/iommu.h) \
+    $(wildcard include/config/arch/omap.h) \
+  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/pm_wakeup.h \
   /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/gpio.h \
-    $(wildcard include/config/gpiolib.h) \
     $(wildcard include/config/arch/have/custom/gpio/h.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/gpio.h \
-    $(wildcard include/config/arch/nr/gpio.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/asm-generic/gpio.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/of.h \
-    $(wildcard include/config/sparc.h) \
-    $(wildcard include/config/of/dynamic.h) \
-    $(wildcard include/config/attach/node.h) \
-    $(wildcard include/config/detach/node.h) \
-    $(wildcard include/config/add/property.h) \
-    $(wildcard include/config/remove/property.h) \
-    $(wildcard include/config/update/property.h) \
-    $(wildcard include/config/no/change.h) \
-    $(wildcard include/config/change/add.h) \
-    $(wildcard include/config/change/remove.h) \
-    $(wildcard include/config/of/resolve.h) \
-    $(wildcard include/config/of/overlay.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/property.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/fwnode.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/gpio/driver.h \
-    $(wildcard include/config/gpiolib/irqchip.h) \
-    $(wildcard include/config/of/gpio.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/irq.h \
-    $(wildcard include/config/irq/domain/hierarchy.h) \
-    $(wildcard include/config/generic/pending/irq.h) \
-    $(wildcard include/config/hardirqs/sw/resend.h) \
-    $(wildcard include/config/generic/irq/legacy/alloc/hwirq.h) \
-    $(wildcard include/config/generic/irq/legacy.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/irqhandler.h \
-  arch/arm/include/generated/asm/irq_regs.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/asm-generic/irq_regs.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/irqdesc.h \
-    $(wildcard include/config/irq/preflow/fasteoi.h) \
-    $(wildcard include/config/handle/domain/irq.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/arch/arm/include/asm/hw_irq.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/irqchip/chained_irq.h \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/irqdomain.h \
-    $(wildcard include/config/irq/domain.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/pinctrl/pinctrl.h \
-    $(wildcard include/config/generic/pinconf.h) \
-  /home/water/workspace/Server/169test/code/ZHANXUN/A351_debug/MOCOR5_SFPHONE_17F_RLS1_W18.19/idh.code/kernel/include/linux/gpio/consumer.h \
-    $(wildcard include/config/gpio/sysfs.h) \
 
-/home/water/NewZero_Driver/字符设备驱动/FirstDriver/frist_drv.o: $(deps_/home/water/NewZero_Driver/字符设备驱动/FirstDriver/frist_drv.o)
+/home/water/NewZero_Driver/misc设备驱动/FirstDriver/frist_drv.o: $(deps_/home/water/NewZero_Driver/misc设备驱动/FirstDriver/frist_drv.o)
 
-$(deps_/home/water/NewZero_Driver/字符设备驱动/FirstDriver/frist_drv.o):
+$(deps_/home/water/NewZero_Driver/misc设备驱动/FirstDriver/frist_drv.o):
