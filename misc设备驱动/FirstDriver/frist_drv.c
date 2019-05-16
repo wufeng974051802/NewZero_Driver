@@ -11,7 +11,21 @@
 #include <linux/io.h>  
 #include <linux/ioport.h>
 #include <linux/gpio.h>
+/*
+使用misc_register，在加载模块时会自动创建设备文件，为主设备号为10的字符设备。
+使用misc_deregister，在卸载模块时会自动删除设备文件
 
+/*  misedevice 结构：
+struct miscdevice  {
+    int minor; //次设备号，若为 MISC_DYNAMIC_MINOR 自动分配
+    const char *name; //设备名
+    struct file_operations *fops; //设备操作
+    struct list_head list;
+    struct device *dev;
+    struct class_device *class;
+    char devfs_name[64];
+};
+*/
 
 static int first_drv_open (struct inode *inode, struct file *file){
 
